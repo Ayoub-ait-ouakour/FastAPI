@@ -1,7 +1,6 @@
 fastapi
 uvicorn
 requests
-streamlit
 replicate
 uvicorn
 python-multipart
