@@ -4,3 +4,4 @@ requests
 replicate
 uvicorn
 python-multipart
+dotenv
