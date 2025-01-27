@@ -25,7 +25,7 @@ app.add_middleware(
 
 
 # Predefined bearer token (replace with your actual token or fetch from environment variables)
-BEARER_TOKEN = """L@9#5q-\6ZfC]T"fQ+9qqyG7pqoFmGw;"fPxIZkF]|-mhF:by.VjP)Rtx'zaM[iK"""  # You can also use os.environ.get("BEARER_TOKEN")
+BEARER_TOKEN = """L@9#5q-6ZfC]T"fQ+9qqyG7pqoFmGw;"fPxIZkF]|-mhF:by.VjP)Rtx'zaM[iK"""  # You can also use os.environ.get("BEARER_TOKEN")
 
 # Dependency to validate the bearer token
 async def token_required(request: Request):
